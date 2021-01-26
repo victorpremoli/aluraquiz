@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 
 const Widget = styled.div`
   margin-top: 24px;
@@ -18,12 +18,13 @@ const Widget = styled.div`
     font-size: 14px;
     font-weight: 400;
     line-height: 1;
+    color: ${({ theme }) => theme.colors.primary};
   }
 `;
 
 Widget.Header = styled.header`
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   padding: 18px 32px;
   background-color: ${({ theme }) => theme.colors.primary};
@@ -44,6 +45,12 @@ Widget.Content = styled.div`
   ul {
     list-style: none;
     padding: 0;
+  }
+  p{
+    color: white;
+  }
+  h1{
+    color: ${({ theme }) => theme.colors.primary};
   }
 `;
 
