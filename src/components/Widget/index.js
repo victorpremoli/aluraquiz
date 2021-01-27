@@ -48,6 +48,8 @@ Widget.Content = styled.div`
   }
   p{
     color: white;
+    font-weight: bold;
+    line-height: 1.5;
   }
   h1{
     color: ${({ theme }) => theme.colors.primary};

@@ -8,6 +8,8 @@ import Widget from '../src/components/Widget';
 import Footer from '../src/components/Footer';
 import GitHubCorner from '../src/components/GitHubCorner';
 import QuizBackground from '../src/components/QuizBackground';
+import Input from '../src/components/Input';
+import Button from '../src/components/Button';
 
 export const QuizContainer = styled.div`
   width: 100%;
@@ -27,18 +29,16 @@ export default function Home() {
   return (
     <QuizBackground backgroundImage={db.bg}>
       <Head>
-        <title>
-          Alura Quiz
-        </title>
+        <title>{db.title}</title>
       </Head>
       <QuizContainer>
         <Widget>
           <Widget.Header>
-            <h1>STAR WARS</h1>
+            <h1>{db.title}</h1>
           </Widget.Header>
           <Widget.Content>
             <p>
-              Teste os seus conhecimentos sobre o vasto universo de star wars e divirta-se, ou não!
+              {db.description}
             </p>
             {/* eslint-disable-next-line func-names */}
             <form onSubmit={function (e) {
@@ -46,17 +46,15 @@ export default function Home() {
               router.push(`/quiz?name=${name}`);
             }}
             >
-              <input
-                placeholder="Seu nome."
-                // eslint-disable-next-line func-names
-                onChange={function (e) {
-                  // name = e.target.value;
-                  setName(e.target.value);
-                }}
+              <Input
+                name="nomeDoUsuario"
+                onChange={(e) => setName(e.target.value)}
+                placeholder="seu nome"
+                value={name}
               />
-              <button type="submit" disabled={name.length === 0}>
+              <Button type="submit" disabled={name.length === 0}>
                 Vamos jogar?
-              </button>
+              </Button>
             </form>
           </Widget.Content>
         </Widget>
