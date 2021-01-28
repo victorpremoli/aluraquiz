@@ -35,6 +35,7 @@ Widget.Header = styled.header`
 `;
 
 Widget.Content = styled.div`
+  color:white;
   padding: 24px 32px 32px 32px;
   & > *:first-child {
     margin-top: 0;
@@ -54,6 +55,29 @@ Widget.Content = styled.div`
   h1{
     color: ${({ theme }) => theme.colors.primary};
   }
+  h2{
+    color:white;
+  }
+`;
+
+Widget.Topic = styled.a`
+  outline: 0;
+  text-decoration:none;
+  color:white;
+  background-color: ${({ theme }) => theme.colors.secondary};
+  padding: 10px 15px;
+  margin-bottom: 8px;
+  cursor: pointer;
+  border-radius: ${({ theme }) => theme.borderRadius};
+  transition: 300ms;
+  display: block;
+
+  &:hover,
+  &:focus {
+    opacity: .5;
+  }
+
+
 `;
 
 export default Widget;
