@@ -4,30 +4,73 @@
     "description": "Teste os seus conhecimentos sobre o vasto universo de star wars e divirta-se, ou não!",
     "questions": [
       {
-        "image": "https://media.giphy.com/media/xT9DPpf0zTqRASyzTi/giphy.gif",
-        "title": "Como fazer um seletor por id via CSS?",
-        "description": "Essa é pra aquecer",
-        "answer": 2,
+        "image": "https://lumiere-a.akamaihd.net/v1/images/han-solo-main_a4c8ff79.jpeg?region=0%2C0%2C1920%2C960",
+        "title": "Qual o valor do primeiro cachê do ator Harrison Ford como personagem Han Solo? ",
+        "description": "Curiosidade",
+        "answer": 0,
         "alternatives": [
-          ".elemento",
-          "*elemento",
-          "#elemento",
-          "%elemento"
+          "US$ 10 MIL",
+          "US$ 100 MIL",
+          "US$ 1 MIL",
+          "US$ 50 MIL"
         ]
       },
       {
-        "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
-        "title": "Como fazer um background gradiente com css?",
-        "description": "Faz tempo em haha",
+        "image": "https://hqrock.files.wordpress.com/2014/09/obi-wan-vs-anakin-poster-star-wars-ep-3.jpg",
+        "title": "Em qual planeta Anakin luta contra Obi Wan Kenobi?",
+        "description": "Só para fans",
+        "answer": 1,
+        "alternatives": [
+          "Dagobah",
+          "Mustafar",
+          "Coruscant",
+          "Tattoine"
+        ]
+      },
+      {
+        "image": "https://kanto.legiaodosherois.com.br/w750-h450-k1/wp-content/uploads/2020/04/legiao_l_HVjGeA4o7I.png.jpeg",
+        "title": "O primeiro filme da saga foi lançado em 1977.",
+        "description": "Só para fans",
         "answer": 0,
         "alternatives": [
-           "background: linear-gradient(#e66465, #9198e5);",
-           "background: gradient(#e66465, #9198e5);"
+          "Sim, esta é a data de lançamento de Uma Nova Esperança.",
+          "Incorreto. O filme foi lançado em 1978."
+        ]
+      },
+      {
+        "image": "https://kanto.legiaodosherois.com.br/w750-h450-k1/wp-content/uploads/2020/04/legiao_qMnv6O4aKsF7.png.jpeg",
+        "title": "A frase 'Que a Força esteja com você' foi dita pela primeira vez nos filmes por Obi-Wan Kenobi.",
+        "description": "Curiosidade",
+        "answer": 1,
+        "alternatives": [
+          "Sim, a frase foi dita pela primeira vez pelo velho mestre.",
+          "A frase foi dita em Uma Nova Esperança sim, mas não saiu primeiro da boca de Obi-Wan."
+        ]
+      },
+      {
+        "image": "https://kanto.legiaodosherois.com.br/w750-h750-k1/wp-content/uploads/2020/04/legiao_yW3rnPYdhBpT.png.jpeg",
+        "title": "O número da cela onde Leia ficou presa na Estrela da Morte era 2167.",
+        "description": "Curiosidade",
+        "answer": 1,
+        "alternatives": [
+          "Sim, foi aí que Luke Skywalker resgatou a princesa.",
+          "Não, Luke salvou a princesa na cela 2187."
+        ]
+      },
+      {
+        "image": "https://kanto.legiaodosherois.com.br/w750-h450-k1/wp-content/uploads/2020/04/legiao_BcM1bXYWnkoh.png.jpeg",
+        "title": "O rival de Anakin Skywalker na corrida de pods era Watto.",
+        "description": "Curiosidade",
+        "answer": 1,
+        "alternatives": [
+          "Sim, Watto correu contra Anakin em Boonta Eve.",
+          "Não, o nome do rival de Anakin era Sebulba."
         ]
       }
     ],
     "external": [
-      ""
+    "https://aluraquiz-css.omariosouto.vercel.app/",
+    "https://aluraquiz-devsoutinho.omariosouto.vercel.app/"
     ],
     "theme": {
       "colors": {
